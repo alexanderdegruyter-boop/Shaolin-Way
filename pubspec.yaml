@@ -25,7 +25,7 @@ dependencies:
   flutter_markdown: ^0.7.4+1 # renders the book chapters (.md) with nice formatting
 
   # --- Video playback (both backends are wired up) ---
-  youtube_player_flutter: ^9.1.1 # inline YouTube playback
+  youtube_player_iframe: ^6.0.2  # inline YouTube playback (maintained, AGP-safe)
   video_player: ^2.9.2           # local bundled .mp4 playback (offline)
 
   # --- Notifications (daily reminder) ---

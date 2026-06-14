@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:video_player/video_player.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 import '../models/workout.dart';
 import '../theme/app_theme.dart';
@@ -39,16 +39,17 @@ class _YouTubeView extends StatefulWidget {
 }
 
 class _YouTubeViewState extends State<_YouTubeView> {
-  late YoutubePlayerController _controller;
+  late final YoutubePlayerController _controller;
 
   @override
   void initState() {
     super.initState();
-    _controller = YoutubePlayerController(
-      initialVideoId: widget.videoId,
-      flags: const YoutubePlayerFlags(
-        autoPlay: false,
-        mute: false,
+    _controller = YoutubePlayerController.fromVideoId(
+      videoId: widget.videoId,
+      autoPlay: false,
+      params: const YoutubePlayerParams(
+        showControls: true,
+        showFullscreenButton: true,
         enableCaption: false,
       ),
     );
@@ -57,33 +58,26 @@ class _YouTubeViewState extends State<_YouTubeView> {
   @override
   void didUpdateWidget(covariant _YouTubeView oldWidget) {
     super.didUpdateWidget(oldWidget);
-    // When the user advances to a new exercise, load its video.
+    // When the user advances to a new exercise, cue its video (paused).
     if (oldWidget.videoId != widget.videoId) {
-      _controller.load(widget.videoId);
+      _controller.cueVideoById(videoId: widget.videoId);
     }
   }
 
   @override
   void dispose() {
-    _controller.dispose();
+    _controller.close();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    // YoutubePlayerBuilder handles inline play, scrubber, and fullscreen.
-    return YoutubePlayerBuilder(
-      player: YoutubePlayer(
+    // The iframe player provides inline play, scrubber, and a fullscreen button.
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(16),
+      child: YoutubePlayer(
         controller: _controller,
-        showVideoProgressIndicator: true,
-        progressColors: const ProgressBarColors(
-          playedColor: AppTheme.accent,
-          handleColor: AppTheme.accent,
-        ),
-      ),
-      builder: (context, player) => ClipRRect(
-        borderRadius: BorderRadius.circular(16),
-        child: player,
+        aspectRatio: 16 / 9,
       ),
     );
   }
