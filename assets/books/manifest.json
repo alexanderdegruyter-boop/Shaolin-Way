@@ -1,0 +1,54 @@
+{
+  "_README": "This manifest lists the books shown in the Read tab. To add your own book: (1) create a folder under assets/books/, (2) add your chapter .md files there, (3) add a new entry below with an id, title, author, description, and an ordered list of chapters (title + file path), (4) make sure the folder is listed under assets in pubspec.yaml, then run 'flutter pub get'. See README.md.",
+
+  "books": [
+    {
+      "id": "shaolin_philosophy",
+      "title": "The Shaolin Way",
+      "author": "An Introduction to the Philosophy",
+      "description": "The roots of Shaolin: Chan mind, discipline, and the path of daily practice.",
+      "chapters": [
+        { "title": "1. Origins of the Way",        "file": "assets/books/shaolin_philosophy/ch1_origins.md" },
+        { "title": "2. The Chan Mind",              "file": "assets/books/shaolin_philosophy/ch2_chan_mind.md" },
+        { "title": "3. Discipline & Virtue",        "file": "assets/books/shaolin_philosophy/ch3_discipline.md" },
+        { "title": "4. The Path of Daily Practice", "file": "assets/books/shaolin_philosophy/ch4_daily_practice.md" }
+      ]
+    },
+    {
+      "id": "breathing_and_training",
+      "title": "Breath & Body",
+      "author": "Principles of Training",
+      "description": "A practical guide to breathing, rooting, conditioning, and patient recovery.",
+      "chapters": [
+        { "title": "1. The Breath Is the Root",     "file": "assets/books/breathing_and_training/ch1_breath.md" },
+        { "title": "2. Rooting & the Stances",      "file": "assets/books/breathing_and_training/ch2_rooting.md" },
+        { "title": "3. Building the Body",          "file": "assets/books/breathing_and_training/ch3_building.md" },
+        { "title": "4. Recovery & Patience",        "file": "assets/books/breathing_and_training/ch4_recovery.md" }
+      ]
+    },
+    {
+      "id": "shaolin_history",
+      "title": "A Short History of Shaolin",
+      "author": "Temple, Legend & Revival",
+      "description": "Fifteen centuries on Mount Song: the founding, Bodhidharma, the warrior monks, the great fire, and the modern revival.",
+      "chapters": [
+        { "title": "1. The Founding of the Temple",        "file": "assets/books/shaolin_history/ch1_founding.md" },
+        { "title": "2. Bodhidharma & the Birth of Chan",   "file": "assets/books/shaolin_history/ch2_bodhidharma.md" },
+        { "title": "3. The Warrior Monks",                 "file": "assets/books/shaolin_history/ch3_warrior_monks.md" },
+        { "title": "4. Fire, Fall & Revival",              "file": "assets/books/shaolin_history/ch4_fire_and_revival.md" }
+      ]
+    },
+    {
+      "id": "qi_gong_animals",
+      "title": "The Way of Qi",
+      "author": "Qi Gong, the Brocades & the Five Animals",
+      "description": "The internal art: what Qi is, the Eight Pieces of Brocade, the Five Animals, the Muscle-Tendon Classic, and standing like a tree.",
+      "chapters": [
+        { "title": "1. What Is Qi?",                       "file": "assets/books/qi_gong_animals/ch1_what_is_qi.md" },
+        { "title": "2. The Eight Pieces of Brocade",       "file": "assets/books/qi_gong_animals/ch2_eight_brocades.md" },
+        { "title": "3. The Five Animals of Shaolin",       "file": "assets/books/qi_gong_animals/ch3_five_animals.md" },
+        { "title": "4. The Muscle-Tendon Classic",         "file": "assets/books/qi_gong_animals/ch4_muscle_tendon_standing.md" }
+      ]
+    }
+  ]
+}

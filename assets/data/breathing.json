@@ -1,0 +1,59 @@
+[
+  {
+    "id": "box",
+    "name": "Box Breathing",
+    "subtitle": "4 · 4 · 4 · 4",
+    "accent": "#6B8F71",
+    "description": "Inhale for four, hold for four, exhale for four, hold for four. A simple square that steadies the mind and body.",
+    "why": "Used by martial artists and warriors to find calm under pressure. The even rhythm balances the nervous system and sharpens focus before training or rest.",
+    "defaultMinutes": 5,
+    "phases": [
+      { "label": "Inhale", "seconds": 4, "type": "inhale" },
+      { "label": "Hold",   "seconds": 4, "type": "hold" },
+      { "label": "Exhale", "seconds": 4, "type": "exhale" },
+      { "label": "Hold",   "seconds": 4, "type": "holdEmpty" }
+    ]
+  },
+  {
+    "id": "dantian",
+    "name": "Deep Dan Tian Breathing",
+    "subtitle": "Abdominal · 6 · 2 · 6",
+    "accent": "#B07D4B",
+    "description": "Breathe low into the belly, letting the Dan Tian (a point two inches below the navel) rise and fall. Long, smooth, and silent.",
+    "why": "The foundation of Shaolin internal practice. Deep abdominal breathing cultivates Qi, oxygenates fully, and roots the body — the source of relaxed power.",
+    "defaultMinutes": 8,
+    "phases": [
+      { "label": "Inhale to the Dan Tian", "seconds": 6, "type": "inhale" },
+      { "label": "Settle",                 "seconds": 2, "type": "hold" },
+      { "label": "Exhale slowly",          "seconds": 6, "type": "exhale" }
+    ]
+  },
+  {
+    "id": "478",
+    "name": "4-7-8 Calming Breath",
+    "subtitle": "4 · 7 · 8",
+    "accent": "#5C7A99",
+    "description": "Inhale through the nose for four, hold for seven, exhale through the mouth for eight with a soft sigh.",
+    "why": "A natural tranquiliser for the nervous system. The long exhale activates the parasympathetic 'rest and digest' response — excellent before sleep or to release tension.",
+    "defaultMinutes": 4,
+    "phases": [
+      { "label": "Inhale", "seconds": 4, "type": "inhale" },
+      { "label": "Hold",   "seconds": 7, "type": "hold" },
+      { "label": "Exhale", "seconds": 8, "type": "exhale" }
+    ]
+  },
+  {
+    "id": "energizing",
+    "name": "Shaolin Energizing Breath",
+    "subtitle": "Quick · 2 · 1 · 2",
+    "accent": "#C25B45",
+    "description": "Brisk, rhythmic breathing to wake the body. Sharp inhale, brief hold, firm exhale — building heat and alertness.",
+    "why": "A morning or pre-training warm-up. Faster cycling raises energy and circulation, clearing grogginess and preparing the body to move.",
+    "defaultMinutes": 3,
+    "phases": [
+      { "label": "Sharp inhale", "seconds": 2, "type": "inhale" },
+      { "label": "Hold",         "seconds": 1, "type": "hold" },
+      { "label": "Firm exhale",  "seconds": 2, "type": "exhale" }
+    ]
+  }
+]

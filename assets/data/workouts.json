@@ -1,0 +1,466 @@
+{
+  "_README": "Edit this file to change workouts. videoType is 'youtube' or 'local'. For youtube, videoSource is the 11-character YouTube video ID (the part after v= in the URL). For local, videoSource is an asset path like assets/videos/horse_stance.mp4. See README.md > 'Adding your own videos'. The YouTube IDs below are REAL Shaolin / Qi Gong instructional videos (sourced June 2026) — if any ever goes offline or disables embedding, swap in another ID.",
+
+  "_video_credits": {
+    "9f8zb_QKZEo": "Shaolin Kung Fu basic moves — Instructor Monk De Yang (Shaolin Temple)",
+    "H71OH6wGVVs": "Shaolin Kung Fu Wushu Basic Form Training For Beginners (Five Stances Fist)",
+    "Iytow9xFXKU": "Shaolin Kung Fu / Wushu Training step by step for Beginners — Master Song",
+    "2F_4JKcmPX0": "Wu Bu Quan — 5 Stances Beginner Form",
+    "NarYmP8AnUU": "Shaolin Kung Fu Basic Training For Beginners — Session 1",
+    "3FJy0EDoYK0": "Ba Duan Jin (8 Brocade) Qi Gong — recorded at Shaolin Temple Europe",
+    "qNRAfQXeJRw": "EASY to FOLLOW Health Qigong Ba Duan Jin",
+    "VLHgvgseWzw": "Qigong exercise — Dan Tian Breathing",
+    "OZMh8WD0h5o": "The Five Animal Styles of Shaolin Kung Fu"
+  },
+
+  "workouts": [
+    {
+      "id": "warmup_flow",
+      "title": "Joint Awakening Flow",
+      "category": "Warm-up & Mobility",
+      "level": "Beginner",
+      "description": "Loosen every major joint before training. Follow the beginner warm-up movements.",
+      "exercises": [
+        {
+          "name": "Neck & Shoulder Rolls",
+          "instructions": [
+            "Stand tall, feet shoulder-width apart, arms relaxed.",
+            "Roll the shoulders backward 8 times, then forward 8 times.",
+            "Gently circle the head: chin to chest, ear to shoulder, both directions.",
+            "Keep the breath slow and even throughout."
+          ],
+          "videoType": "youtube",
+          "videoSource": "Iytow9xFXKU",
+          "durationSeconds": 45,
+          "reps": null,
+          "restSeconds": 10
+        },
+        {
+          "name": "Hip & Waist Circles",
+          "instructions": [
+            "Hands on hips, feet a little wider than shoulders.",
+            "Draw big circles with the hips — 8 clockwise, 8 counter-clockwise.",
+            "Keep the upper body relatively still; the motion is in the pelvis."
+          ],
+          "videoType": "youtube",
+          "videoSource": "Iytow9xFXKU",
+          "durationSeconds": 40,
+          "reps": null,
+          "restSeconds": 10
+        },
+        {
+          "name": "Arm Swings & Twists",
+          "instructions": [
+            "Let the arms swing freely across the body, twisting gently at the waist.",
+            "Allow the heels to pivot naturally with each swing.",
+            "Build a relaxed, rhythmic momentum for 40 seconds."
+          ],
+          "videoType": "youtube",
+          "videoSource": "Iytow9xFXKU",
+          "durationSeconds": 40,
+          "reps": null,
+          "restSeconds": 0
+        }
+      ]
+    },
+    {
+      "id": "stances_foundation",
+      "title": "Foundational Stances",
+      "category": "Foundational Stances",
+      "level": "Beginner",
+      "description": "The roots of Shaolin: Horse, Bow, and Cat. Taught here by Shaolin Temple instructors.",
+      "exercises": [
+        {
+          "name": "Horse Stance (Ma Bu)",
+          "instructions": [
+            "Step wide, about twice shoulder-width, toes pointing forward.",
+            "Bend the knees and sink straight down as if sitting on a stool.",
+            "Keep the back upright, chest open, and weight even on both feet.",
+            "Rest the hands in fists at the waist. Hold and breathe into the Dan Tian."
+          ],
+          "videoType": "youtube",
+          "videoSource": "9f8zb_QKZEo",
+          "durationSeconds": 60,
+          "reps": null,
+          "restSeconds": 20
+        },
+        {
+          "name": "Bow Stance (Gong Bu)",
+          "instructions": [
+            "Step one foot forward into a long stance.",
+            "Bend the front knee over the ankle; keep the back leg straight and strong.",
+            "Front foot points forward, back foot angled out about 45 degrees.",
+            "Square the hips forward and hold. Switch sides halfway."
+          ],
+          "videoType": "youtube",
+          "videoSource": "9f8zb_QKZEo",
+          "durationSeconds": 60,
+          "reps": null,
+          "restSeconds": 20
+        },
+        {
+          "name": "Cat Stance (Xu Bu)",
+          "instructions": [
+            "Bring the feet close, weight almost entirely on the back leg.",
+            "Front foot rests lightly, only the ball of the foot touching.",
+            "Sink down on the back leg, staying light and ready on the front.",
+            "Hold with calm, alert posture. Switch sides halfway."
+          ],
+          "videoType": "youtube",
+          "videoSource": "H71OH6wGVVs",
+          "durationSeconds": 45,
+          "reps": null,
+          "restSeconds": 20
+        },
+        {
+          "name": "Five Stances Form (Wu Bu Quan)",
+          "instructions": [
+            "Flow through the five basic stances as a short form.",
+            "Move slowly at first, settling fully into each stance.",
+            "Coordinate the breath with each transition.",
+            "Repeat the sequence on both sides."
+          ],
+          "videoType": "youtube",
+          "videoSource": "2F_4JKcmPX0",
+          "durationSeconds": 90,
+          "reps": null,
+          "restSeconds": 0
+        }
+      ]
+    },
+    {
+      "id": "qigong_baduanjin",
+      "title": "Ba Duan Jin — Eight Pieces of Brocade",
+      "category": "Qi Gong",
+      "level": "Beginner",
+      "description": "The classic eight-movement health Qi Gong, practised for over 800 years. Gentle, complete, and deeply restorative. Follow along with the full routine on each step.",
+      "exercises": [
+        {
+          "name": "1 · Two Hands Hold Up the Heavens",
+          "instructions": [
+            "Stand relaxed, feet shoulder-width. Interlace the fingers in front of the belly.",
+            "Inhale and raise the joined hands overhead, turning the palms to face the sky and stretching upward.",
+            "Exhale and float the arms back down to the sides. Regulates the Triple Burner.",
+            "Repeat slowly several times."
+          ],
+          "videoType": "youtube",
+          "videoSource": "3FJy0EDoYK0",
+          "durationSeconds": 45,
+          "reps": null,
+          "restSeconds": 8
+        },
+        {
+          "name": "2 · Draw the Bow to Shoot the Hawk",
+          "instructions": [
+            "Sink into a Horse Stance.",
+            "Extend one arm as if holding a bow; the other draws back as if pulling the string, gaze along the 'arrow'.",
+            "Alternate sides smoothly. Opens the chest and strengthens the lungs."
+          ],
+          "videoType": "youtube",
+          "videoSource": "3FJy0EDoYK0",
+          "durationSeconds": 45,
+          "reps": null,
+          "restSeconds": 8
+        },
+        {
+          "name": "3 · Separate Heaven and Earth",
+          "instructions": [
+            "From standing, press one palm upward to the sky and the other downward to the earth.",
+            "Stretch gently in both directions, then switch hands.",
+            "Harmonises the spleen and stomach."
+          ],
+          "videoType": "youtube",
+          "videoSource": "3FJy0EDoYK0",
+          "durationSeconds": 40,
+          "reps": null,
+          "restSeconds": 8
+        },
+        {
+          "name": "4 · Wise Owl Gazes Backwards",
+          "instructions": [
+            "Stand tall, arms relaxed at the sides.",
+            "Slowly turn the head and gaze back over one shoulder without moving the torso, then the other.",
+            "Relieves tension and 'the five strains and seven impairments'."
+          ],
+          "videoType": "youtube",
+          "videoSource": "3FJy0EDoYK0",
+          "durationSeconds": 40,
+          "reps": null,
+          "restSeconds": 8
+        },
+        {
+          "name": "5 · Sway the Head and Shake the Tail",
+          "instructions": [
+            "Sink into a wide Horse Stance, hands on thighs.",
+            "Circle the torso, bending toward one side then the other in a slow, relaxed arc.",
+            "Cools excess 'heart fire' and calms the mind."
+          ],
+          "videoType": "youtube",
+          "videoSource": "3FJy0EDoYK0",
+          "durationSeconds": 45,
+          "reps": null,
+          "restSeconds": 8
+        },
+        {
+          "name": "6 · Two Hands Hold the Feet",
+          "instructions": [
+            "From standing, fold gently forward and slide the hands down the backs of the legs toward the feet.",
+            "Rise slowly, sweeping the hands up the front of the body.",
+            "Strengthens the kidneys and the lower back."
+          ],
+          "videoType": "youtube",
+          "videoSource": "3FJy0EDoYK0",
+          "durationSeconds": 40,
+          "reps": null,
+          "restSeconds": 8
+        },
+        {
+          "name": "7 · Clench Fists and Glare Fiercely",
+          "instructions": [
+            "Sink into Horse Stance, fists at the waist.",
+            "Punch slowly and powerfully forward, alternating, with a fierce, focused gaze.",
+            "Builds strength and circulates Qi and vitality."
+          ],
+          "videoType": "youtube",
+          "videoSource": "3FJy0EDoYK0",
+          "durationSeconds": 45,
+          "reps": null,
+          "restSeconds": 8
+        },
+        {
+          "name": "8 · Bouncing on the Toes",
+          "instructions": [
+            "Stand tall, heels together, arms relaxed.",
+            "Rise onto the balls of the feet, then let the heels drop with a gentle bounce.",
+            "Repeat seven times. Shakes out tension and 'a hundred ailments'."
+          ],
+          "videoType": "youtube",
+          "videoSource": "3FJy0EDoYK0",
+          "durationSeconds": 40,
+          "reps": null,
+          "restSeconds": 0
+        }
+      ]
+    },
+    {
+      "id": "five_animals",
+      "title": "The Five Animals (Wu Xing)",
+      "category": "Five Animals",
+      "level": "Intermediate",
+      "description": "An introduction to the five animal spirits of Shaolin — Tiger, Crane, Leopard, Snake, and Dragon — each cultivating a different quality. Study the demonstration, then explore each shape.",
+      "exercises": [
+        {
+          "name": "Tiger — Bones & Strength",
+          "instructions": [
+            "The Tiger trains the bones and raw power. Tiger-claw hands, low rooted stances.",
+            "Move with heavy, committed force from the waist and back.",
+            "Cultivates strength and fearless spirit."
+          ],
+          "videoType": "youtube",
+          "videoSource": "OZMh8WD0h5o",
+          "durationSeconds": 60,
+          "reps": null,
+          "restSeconds": 15
+        },
+        {
+          "name": "Crane — Sinews & Balance",
+          "instructions": [
+            "The Crane trains the sinews, balance, and calm spirit.",
+            "Stand tall on one leg; the arms become long, light wings.",
+            "Move softly and precisely, cultivating poise and patience."
+          ],
+          "videoType": "youtube",
+          "videoSource": "OZMh8WD0h5o",
+          "durationSeconds": 60,
+          "reps": null,
+          "restSeconds": 15
+        },
+        {
+          "name": "Leopard — Speed & Power",
+          "instructions": [
+            "The Leopard trains speed and concentrated power.",
+            "Use the leopard-paw fist; strikes are fast, sharp, and explosive.",
+            "Cultivates quickness and aggressive intent."
+          ],
+          "videoType": "youtube",
+          "videoSource": "OZMh8WD0h5o",
+          "durationSeconds": 50,
+          "reps": null,
+          "restSeconds": 15
+        },
+        {
+          "name": "Snake — Qi & Suppleness",
+          "instructions": [
+            "The Snake trains internal Qi, breath, and flexibility.",
+            "The body flows and coils; the fingers strike like a serpent's head.",
+            "Move smoothly with the breath, cultivating sensitivity and softness."
+          ],
+          "videoType": "youtube",
+          "videoSource": "OZMh8WD0h5o",
+          "durationSeconds": 50,
+          "reps": null,
+          "restSeconds": 15
+        },
+        {
+          "name": "Dragon — Spirit (Shen)",
+          "instructions": [
+            "The Dragon trains the spirit and flowing, undulating power.",
+            "The waist leads; the whole body moves as one connected wave.",
+            "Cultivates presence, focus, and the unity of body and mind."
+          ],
+          "videoType": "youtube",
+          "videoSource": "OZMh8WD0h5o",
+          "durationSeconds": 60,
+          "reps": null,
+          "restSeconds": 0
+        }
+      ]
+    },
+    {
+      "id": "strength_core",
+      "title": "Bodyweight Strength & Conditioning",
+      "category": "Strength & Conditioning",
+      "level": "Intermediate",
+      "description": "Classic bodyweight conditioning to build the foundation of relaxed power.",
+      "exercises": [
+        {
+          "name": "Push-ups",
+          "instructions": [
+            "Hands under the shoulders, body in a straight line from head to heels.",
+            "Lower with control until the chest is just above the floor.",
+            "Press back up, keeping the core braced and hips level.",
+            "Drop to the knees if needed — quality over quantity."
+          ],
+          "videoType": "youtube",
+          "videoSource": "IODxDxX7oi4",
+          "durationSeconds": null,
+          "reps": 15,
+          "restSeconds": 30
+        },
+        {
+          "name": "Horse Stance Hold",
+          "instructions": [
+            "Return to Horse Stance and sink low.",
+            "Hold steady, breathing slowly, for the full duration.",
+            "Feel the legs build heat — this is the forge of the Shaolin body."
+          ],
+          "videoType": "youtube",
+          "videoSource": "9f8zb_QKZEo",
+          "durationSeconds": 60,
+          "reps": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Bodyweight Squats",
+          "instructions": [
+            "Feet shoulder-width, toes slightly out.",
+            "Sit the hips back and down, keeping the chest up and heels planted.",
+            "Drive through the floor to stand. Move with steady tempo."
+          ],
+          "videoType": "youtube",
+          "videoSource": "aclHkVaku9U",
+          "durationSeconds": null,
+          "reps": 20,
+          "restSeconds": 30
+        },
+        {
+          "name": "Plank",
+          "instructions": [
+            "Forearms on the floor, elbows under shoulders.",
+            "Straight line from head to heels; brace the core and glutes.",
+            "Breathe steadily and hold without letting the hips sag."
+          ],
+          "videoType": "youtube",
+          "videoSource": "pSHjTRCQxIw",
+          "durationSeconds": 45,
+          "reps": null,
+          "restSeconds": 0
+        }
+      ]
+    },
+    {
+      "id": "flexibility_open",
+      "title": "Opening & Flexibility",
+      "category": "Flexibility",
+      "level": "Beginner",
+      "description": "Gentle stretches to open the hips, hamstrings, and spine for kicks and low stances.",
+      "exercises": [
+        {
+          "name": "Standing Forward Fold",
+          "instructions": [
+            "Feet hip-width, soft knees.",
+            "Hinge at the hips and fold forward, letting the head hang heavy.",
+            "Relax the neck and breathe into the back of the legs."
+          ],
+          "videoType": "youtube",
+          "videoSource": "g_tea8ZNk5A",
+          "durationSeconds": 45,
+          "reps": null,
+          "restSeconds": 10
+        },
+        {
+          "name": "Deep Lunge Hip Opener",
+          "instructions": [
+            "Step one foot far forward into a low lunge.",
+            "Drop the back knee toward the floor and sink the hips down.",
+            "Keep the chest lifted; feel the front of the back hip open.",
+            "Hold, then switch sides at the halfway point."
+          ],
+          "videoType": "youtube",
+          "videoSource": "g_tea8ZNk5A",
+          "durationSeconds": 60,
+          "reps": null,
+          "restSeconds": 10
+        },
+        {
+          "name": "Seated Wide-Leg Stretch",
+          "instructions": [
+            "Sit with legs spread wide and comfortable.",
+            "Keep the back long as you fold gently forward from the hips.",
+            "Never force — breathe and ease a little deeper with each exhale."
+          ],
+          "videoType": "local",
+          "videoSource": "assets/videos/wide_leg_stretch.mp4",
+          "durationSeconds": 60,
+          "reps": null,
+          "restSeconds": 0
+        }
+      ]
+    },
+    {
+      "id": "cooldown_settle",
+      "title": "Cool-down & Settle",
+      "category": "Cool-down",
+      "level": "Beginner",
+      "description": "Bring the heart rate down and gather the energy back to the center.",
+      "exercises": [
+        {
+          "name": "Gentle Spinal Twists",
+          "instructions": [
+            "Stand or sit tall, arms loose.",
+            "Slowly rotate the torso left, then right, following with the gaze.",
+            "Move with the breath — inhale center, exhale twist."
+          ],
+          "videoType": "youtube",
+          "videoSource": "g_tea8ZNk5A",
+          "durationSeconds": 40,
+          "reps": null,
+          "restSeconds": 10
+        },
+        {
+          "name": "Standing Dan Tian Breathing",
+          "instructions": [
+            "Stand relaxed, palms resting over the lower belly.",
+            "Breathe slowly and deeply into the Dan Tian.",
+            "Feel the warmth of the practice settle and gather inward."
+          ],
+          "videoType": "youtube",
+          "videoSource": "VLHgvgseWzw",
+          "durationSeconds": 90,
+          "reps": null,
+          "restSeconds": 0
+        }
+      ]
+    }
+  ]
+}
