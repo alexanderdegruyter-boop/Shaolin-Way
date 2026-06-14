@@ -123,13 +123,13 @@ class _WorkoutCard extends StatelessWidget {
               const SizedBox(height: 12),
               Row(
                 children: [
-                  Icon(Icons.fitness_center,
+                  const Icon(Icons.fitness_center,
                       size: 16, color: AppTheme.accent),
                   const SizedBox(width: 6),
                   Text('${workout.exercises.length} exercises',
                       style: text.bodyMedium),
                   const SizedBox(width: 16),
-                  Icon(Icons.schedule, size: 16, color: AppTheme.accent),
+                  const Icon(Icons.schedule, size: 16, color: AppTheme.accent),
                   const SizedBox(width: 6),
                   Text('~${workout.estimatedMinutes} min',
                       style: text.bodyMedium),

@@ -220,7 +220,7 @@ class _WorkoutSessionScreenState extends State<WorkoutSessionScreen> {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(Icons.self_improvement, size: 56, color: AppTheme.accent),
+          const Icon(Icons.self_improvement, size: 56, color: AppTheme.accent),
           const SizedBox(height: 16),
           Text('Rest', style: text.headlineSmall),
           const SizedBox(height: 8),

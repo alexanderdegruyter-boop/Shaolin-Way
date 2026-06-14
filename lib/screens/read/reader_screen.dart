@@ -333,7 +333,7 @@ class _ReaderScreenState extends State<ReaderScreen> {
       blockquoteDecoration: BoxDecoration(
         color: AppTheme.accent.withOpacity(0.10),
         borderRadius: BorderRadius.circular(8),
-        border: Border(
+        border: const Border(
           left: BorderSide(color: AppTheme.accent, width: 3),
         ),
       ),

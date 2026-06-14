@@ -67,6 +67,8 @@ class NotificationService {
       _nextInstanceOf(hour, minute),
       details,
       androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+      uiLocalNotificationDateInterpretation:
+          UILocalNotificationDateInterpretation.absoluteTime,
       matchDateTimeComponents: DateTimeComponents.time, // repeat daily
     );
   }
